@@ -16,7 +16,6 @@
         <module>e3Mall_manager_dao</module>
         <module>e3Mall_manager_service</module>
         <module>e3Mall_manager_interface</module>
-        <module>e3Mall_manager_web</module>
     </modules>
 
     <dependencies>

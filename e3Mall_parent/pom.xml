@@ -9,6 +9,7 @@
     <modules>
         <module>../e3Mall_common</module>
         <module>../e3Mall_manager</module>
+        <module>../e3Mall_manager_web</module>
     </modules>
     <packaging>pom</packaging>
 
