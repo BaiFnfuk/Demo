@@ -9,9 +9,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 
-@Controller("helloController")
+
+@Controller
 @RequestMapping("/hello")
 public class HelloController {
+
 
     @Resource(name = "itemService")
     private ItemService itemService;

@@ -38,10 +38,11 @@
         <solrj.version>7.4.0</solrj.version>
         <dubbo.version>2.6.2</dubbo.version>
         <zookeeper.version>3.4.10</zookeeper.version>
-        <zkclient.version>0.10</zkclient.version>
+        <zkclient.version>0.1</zkclient.version>
         <activemq.version>5.15.0</activemq.version>
         <freemarker.version>2.3.23</freemarker.version>
         <quartz.version>2.3.0</quartz.version>
+        <curator-framework.version>4.0.1</curator-framework.version>
         <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
         <tomcat7-maven-plugin>2.2</tomcat7-maven-plugin>
@@ -209,6 +210,14 @@
                 <artifactId>zkclient</artifactId>
                 <version>${zkclient.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-framework</artifactId>
+                <version>${curator-framework.version}</version>
+            </dependency>
+
+
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>activemq-all</artifactId>
