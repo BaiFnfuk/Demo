@@ -14,7 +14,7 @@
     <context:component-scan base-package="com.bai.service.impl"/>
     <!--dubbo提供方信息,用于计算依赖关系-->
     <dubbo:application name="e3Mall_manager"/>
-    <dubbo:registry protocol="zookeeper" address="zookeeper://192.168.32.131:2181"/>
+    <dubbo:registry protocol="zookeeper" address="zookeeper://localhost:2181"/>
     <!--用dubbo协议在20880端口暴服务-->
     <dubbo:protocol name="dubbo" port="20880"/>
     <!--声明需要暴露的服务接口-->
